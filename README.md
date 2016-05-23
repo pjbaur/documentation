@@ -18,6 +18,15 @@ Run the tests with Maven:
     mvn test
 
 
+### Build
+
+Build the artifacts with Maven:
+
+    mvn package
+
+Maven puts the artifacts into a `target` directory under each module.
+
+
 ### Release
 
 Follow these steps to publish a Maven project release:
