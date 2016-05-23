@@ -27,6 +27,21 @@ Build the artifacts with Maven:
 Maven puts the artifacts into a `target` directory under each module.
 
 
+### Run
+
+After building the artifacts, the executables can be found in the `target`
+directories. Their filenames have the following format:
+
+    <module>-<version>.jar
+
+Run an executable with Java:
+
+    java -jar <executable>
+
+If an executable requires a configuration file, an example of one can be found
+as `devel.conf` in the `etc` directory under the module.
+
+
 ### Release
 
 Follow these steps to publish a Maven project release:
