@@ -11,6 +11,13 @@ Development
 This section describes development of Parity projects.
 
 
+### Test
+
+Run the tests with Maven:
+
+    mvn test
+
+
 ### Release
 
 Follow these steps to publish a Maven project release:
