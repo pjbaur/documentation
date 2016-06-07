@@ -19,16 +19,16 @@ focus areas:
   - The **market connectivity** libraries enable applications on the Java
     Virtual Machine (JVM) to connect to trading venues and brokerage firms.
 
-  - The **trading system** applications implement a software platform for
+  - The **trading system** applications provide a software platform for
     running a trading venue.
 
 The following projects focus on market connectivity:
 
   - **[Foundation][]** contains building blocks for implementing network
-    protocols. These include routines for manipulating ASCII strings and byte
-    arrays, for example.
+    protocols. These include routines for manipulating, for example, ASCII
+    strings and byte arrays.
 
-  - **[Nassau][]** implements NASDAQ transport protocols. These provide a
+  - **[Nassau][]** implements NASDAQ transport protocols. These provide
     reliable transport for delimited, sequenced messages either between two
     endpoints or from one sender to many receivers. Nassau depends on
     Foundation.
@@ -59,10 +59,10 @@ The following projects are related to the trading system:
     the matching engine and the order entry and market data protocols. These
     are built on Foundation, Nassau, and Philadelphia.
 
-  - **[Parity Extras][]** implements additional applications for the trading
-    system, such as a market event simulator. These interact with the trading
-    system using the order entry and market data protocols, the same way
-    market participants do.
+  - **[Parity Extras][]** provides additional applications, such as a market
+    event simulator, for the trading system. These interact with the trading
+    system the same way market participants do, using the order entry and
+    market data protocols.
 
   [Parity]: https://github.com/paritytrading/parity
   [Parity Extras]: https://github.com/paritytrading/parity-extras
